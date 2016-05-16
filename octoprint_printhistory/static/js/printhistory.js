@@ -148,6 +148,14 @@
                 );
             }
             };
+
+        self.showGcode=function()
+        {
+
+            console.log('View GCode');
+
+        };
+
         self.findFileData=function(filename)
         {
             for(var index=0; index<self.fileData["files"].length;index++)
