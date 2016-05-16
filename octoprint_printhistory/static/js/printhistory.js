@@ -143,7 +143,7 @@
                         dataType: "json",
                         //success: self.successRepeat,
                         contentType: "application/json; charset=UTF-8",
-                        data: JSON.stringify({command: "select", print: true})
+                        data: JSON.stringify({command: "select", print: false})
                     }
                 );
             }
